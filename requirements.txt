@@ -7,3 +7,9 @@ psycopg2
 
 #for env var
 python-dotenv
+
+#for schemas
+pydantic[Email]
+
+#hashing
+passlib[bcrypt]
